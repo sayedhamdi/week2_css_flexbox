@@ -1,0 +1,51 @@
+*,*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url("../img/mercedes-amg-classg.jpg");
+    
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+h1{
+    border:2px solid black;
+    padding:100px;
+    color:red;
+}
+.card{
+    border:2px solid black;
+    width:20%;
+}
+.card img{
+    width:70%;
+}
+.parent{
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+nav{
+    background-color: aquamarine;
+    margin-bottom:50px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 255, .2);
+}
+ul{
+    color:blue;
+    display:flex;
+    justify-content:space-between;
+    height:60px;
+    align-items:center;
+}
+li{
+    list-style-type:none;
+    margin-left:20px;
+}
+#contact {
+    margin-right:20px;
+}
+.nav-items{
+    display:flex;
+}
